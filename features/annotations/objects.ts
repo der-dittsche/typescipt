@@ -1,5 +1,5 @@
 const profile = {
-  name: "Sascha",
+  firstname: "Sascha",
   lastname: "Dietrich",
   age: 35,
   coords: {
@@ -11,7 +11,7 @@ const profile = {
   },
 };
 
-const { age }: { age: number } = profile;
+const { age, firstname }: { age: number; firstname: string } = profile;
 const {
   coords: { lat, lng },
-}: { coords: { lat: number }; coords: { lng: number } } = profile;
+}: { coords: { lat: number; lng: number } } = profile;
