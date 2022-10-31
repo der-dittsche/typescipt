@@ -7,23 +7,13 @@
     },
     {
       "id": 2,
-      "name": "Axel",
-      "age": 40
+      "name": "newer name",
+      "age": 47
     },
     {
       "name": "Sascha",
       "age": 35,
       "id": 3
-    },
-    {
-      "name": "Sascha",
-      "age": 35,
-      "id": 4
-    },
-    {
-      "name": "Sascha",
-      "age": 35,
-      "id": 5
     }
   ]
 }

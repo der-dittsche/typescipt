@@ -1,5 +1,9 @@
-import { User } from "./modols/User";
+import { User } from "./models/User";
 
-const user = new User({});
-user.set({ name: "Sascha", age: 35 });
+const user = new User({ id: 2, name: "newer name", age: 47 });
+
+user.on("save", () => {
+  console.log(user);
+});
+
 user.save();
